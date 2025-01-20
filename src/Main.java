@@ -8,10 +8,12 @@ public class Main {
         System.out.println("Ф. И. О. сотрудника - " + fullName);
 
         System.out.println("Task 2");
-        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета - " + fullName.toUpperCase());
+        String fullName1 = fullName.toUpperCase();
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета - " + fullName1);
 
         System.out.println("Task 3");
-        String fullName1 = "Иванов Семён Семёнович";
-        System.out.println("Данные Ф. И. О. сотрудника - " + fullName1.replace("ё", "е"));
+        String fullName2 = "Иванов Семён Семёнович";
+        String fullName3 = fullName2.replace("ё", "е");
+        System.out.println("Данные Ф. И. О. сотрудника - " + fullName3);
     }
 }
